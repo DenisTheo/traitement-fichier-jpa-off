@@ -1,6 +1,5 @@
 package fr.diginamic.traitement.models;
 
-
 public class Additive
 {
     private long id;
@@ -10,14 +9,17 @@ public class Additive
     {
         return id;
     }
+    
     public void setId(long id)
     {
         this.id = id;
     }
+    
     public String getName()
     {
         return name;
     }
+    
     public void setName(String name)
     {
         this.name = name;

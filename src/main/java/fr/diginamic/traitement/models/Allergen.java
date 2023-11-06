@@ -1,6 +1,5 @@
 package fr.diginamic.traitement.models;
 
-
 public class Allergen
 {
     private long id;

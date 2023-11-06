@@ -1,6 +1,5 @@
 package fr.diginamic.traitement.models;
 
-
 public class Brand
 {
     private long id;
@@ -8,7 +7,7 @@ public class Brand
 
     public Brand(String name)
     {
-        this.name = name;
+        setName(name);
     }
 
     public long getId()

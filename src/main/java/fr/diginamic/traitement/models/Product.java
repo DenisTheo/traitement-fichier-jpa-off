@@ -7,9 +7,9 @@ public class Product
 {
     private long id;
     private String name;
-    private Score score;
     private double calories;
     private double fat;
+    private Score score;
     private Category category;
     private Brand brand;
     private Set<Ingredient> ingredients;

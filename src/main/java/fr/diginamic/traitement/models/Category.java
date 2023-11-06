@@ -1,9 +1,7 @@
 package fr.diginamic.traitement.models;
 
-
 public class Category
 {
-
     private long id;
     private String name;
 
@@ -11,14 +9,13 @@ public class Category
 
     public Category(String name)
     {
-        this.name = name;
+        setName(name);
     }
 
     public long getId()
     {
         return id;
     }
-
    
     public void setId(long id)
     {
